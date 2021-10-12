@@ -1,34 +1,23 @@
 // App.tsx
 import React from 'react'
-import MyFirstComponent from './components/myFirstComponent';
-import SomeExampleComponent from './components/example/someExampleComponent';
-import ClickCount from './components/clickCount';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from 'react-router-dom';
+import styles from './App.module.scss'
+import avatar from './media/avatar.jpg'
+
+
 
 const App: React.FC = () => {
   return (
-    <Router basename='/YourRepoNameHere'>
+    <Router basename='/portfolio'>
       
-      {/* The navigation bar and other components you want to display on all pages come here */}
-      <div className={styles.navbar}>
-        <Link to='/'>Front page</Link>
-        <Link to='example'>Look my example component</Link>
-      </div>
-
-      <Switch>
-        {/* Changing content comes here */}
-        <Route exact path='/' component={MyFirstComponent} />
-        <Route exact path='/example' component={SomeExampleComponent}/>
-      </Switch>
-
-      {/* The footer and other components you want to display on all pages come here */}
-      <ClickCount />
-
+      <p className={styles.nimi}> Alexin Portfolio</p>
+      <img className={styles.src} src={avatar} alt=""/>
+      <p className={styles.cv}> </p>
     </Router>
   )
 }
