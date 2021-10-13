@@ -7,17 +7,21 @@ import {
   Link
 } from 'react-router-dom';
 import styles from './App.module.scss'
-import avatar from './media/avatar.jpg'
+import TopBar from './components/topBar/topBar';
+
 
 
 
 const App: React.FC = () => {
   return (
     <Router basename='/portfolio'>
-      
-      <p className={styles.nimi}> Alexin Portfolio</p>
-      <img className={styles.src} src={avatar} alt=""/>
+      <TopBar/>
+      <p className={styles.a}>/\</p>
+      {/* <p className={styles.nimi}>Alex's portfolio</p>
       <p className={styles.cv}> </p>
+      <p className={styles.info}>About Me</p>
+      <p className={styles.line}>|</p> */}
+
     </Router>
   )
 }

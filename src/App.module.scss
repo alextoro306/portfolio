@@ -1,26 +1,34 @@
-body{
-   background-image:url(https://wallpaperaccess.com/full/233095.jpg);
-   background-position: center center;
-   background-repeat: no-repeat; 
-   background-attachment: fixed;
-   background-size: cover;
+body {
+    margin: 0;
+    background-image:url(https://wallpaperaccess.com/full/233095.jpg);
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
 }
 .navbar {
     display: flex;
     flex-direction: column;
 }
-.nimi{
-    font-size: 2cm;
-    margin-left: 640px;
-    margin-top: 1px;
+.nimi {
+    font-size: 1.5cm;
+    margin-left: 5px;
+    margin-top: -125px;
     font-family: Gill Sans;
     color: white;
     
 }
-.avatar{
-    height: 10px;
-    
+.info {
+    font-size: 0.6cm;
+    margin-left: 1700px;
+    margin-top: -115px;
+    font-family: Gill Sans;
+    color: white;
 }
-.cv{
-
+    line {
+    margin-top: -115px;
+    font-size: 1cm;
+    font-family: Gill Sans;
+    color: white;
+    margin-left: 1700px;
 }
