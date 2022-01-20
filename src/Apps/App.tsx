@@ -2,14 +2,14 @@
 import React from 'react'
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  // Switch,
+  // Route,
+  // Link
 } from 'react-router-dom';
 import styles from './App.module.scss'
 import Menubar from '../components/navbar/menubar';
 import Navbar from '../components/navbar/navbar';
-import TopBar from '../components/topBar/topBar';
+// import TopBar from '../components/topBar/topBar';
 
 const App: React.FC = () => {
   return (
