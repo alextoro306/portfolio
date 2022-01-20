@@ -1,21 +1,28 @@
 .container {
     display: flex;
     flex-direction: row;
-    background: black;
+    background: rgb(75, 58, 168);
     justify-content: flex-start;
     width: 100%;
     height: 80px;
 }
+
 .header{
     color: #fff;
     width: 100%;
+    font-size: 0.5cm;
+    font-family: arial;
 }
+
 .links{
     color: #fff;
     display: flex;
+    font-family: arial;
     flex-direction: row;
-    .link {
-        margin: 10px;
-    }
-    
+    font-size: 0.5cm;
+
+.link {
+    margin: 20px;
+}
+
 }

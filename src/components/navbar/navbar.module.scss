@@ -1,0 +1,66 @@
+$menu-item-margin: 10px;
+
+.container {
+    height: 80px;
+    width: 100%;
+    background: #161525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2cm;
+    margin-top: -5px;
+}
+
+.container h2 {
+    color: rgb(14, 13, 13);
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 0.7cm;
+    margin-top: 105px;
+}
+
+.menubar {
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    background: rgb(35, 34, 49);
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.spacing {
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menubar .menuItem a {
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 0.6cm;
+}
+
+.menubar .menuItem a:hover {
+    color: rgb(220, 220, 110);
+}

@@ -10,12 +10,13 @@ const TopBar: React.FC<TopBarProps> = () => {
     <div className={styles.container}>
         <div className={styles.header}>
           <h3>
-            Alex
+            Alex Toro Portfolio
           </h3>
         </div>
         <div className={styles.links}>
-        <p className={styles.link}>link1</p> 
-        <p className={styles.link}>link2</p>
+        <p className={styles.link}>Home</p> 
+        <p className={styles.link}>Projects</p>
+        <p className={styles.link}>CV</p>
         </div>
       </div>
   )

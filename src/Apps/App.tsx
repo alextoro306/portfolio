@@ -7,16 +7,17 @@ import {
   Link
 } from 'react-router-dom';
 import styles from './App.module.scss'
-import TopBar from './components/topBar/topBar';
-
-
-
+import Menubar from '../components/navbar/menubar';
+import Navbar from '../components/navbar/navbar';
+import TopBar from '../components/topBar/topBar';
 
 const App: React.FC = () => {
   return (
     <Router basename='/portfolio'>
-      <TopBar/>
-      <p className={styles.a}>/\</p>
+      {/* <TopBar/> */}
+      <Navbar />
+      <Menubar />
+      <p className={styles.a}>---</p>
       {/* <p className={styles.nimi}>Alex's portfolio</p>
       <p className={styles.cv}> </p>
       <p className={styles.info}>About Me</p>
