@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './projects.module.scss';
+//import styles from './projects.module.scss';
 
 type ProjectsProps = {
 

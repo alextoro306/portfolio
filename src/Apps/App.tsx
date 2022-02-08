@@ -3,9 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from 'react-router-dom';
-import { render } from 'react-dom';
 import NotFound from '../components/sites/notfound/notfound';
 import styles from './App.module.scss'
 import Menubar from '../components/navbar/menubar';
