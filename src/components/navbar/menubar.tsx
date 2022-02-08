@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Darkmodebutton from '../../darkmode/darkmodebutton';
+import { useDarkmodeContext } from '../../darkmode/darkmodeContextProvider';
 import { MenuItems } from './menuItems';
 import styles from './navbar.module.scss';
 
@@ -7,6 +10,7 @@ type MenubarProps = {
 }
 
 const Menubar: React.FC<MenubarProps> = () => {
+  const { useDarkmode } = useDarkmodeContext()
   return (
     <div className={styles.menubar}>
       {
@@ -18,7 +22,8 @@ const Menubar: React.FC<MenubarProps> = () => {
                         ? null
                         : <p className={styles.spacing}>|</p>
                       }
-                      <a href={x.linkTo}>{x.title}</a>
+                      {/* <a href={x.linkTo}>{x.title}</a> */}
+                      <Link to={x.linkTo}>{x.title}</Link>
                       {
                         i % 2 === 0
                         ? null
@@ -28,6 +33,13 @@ const Menubar: React.FC<MenubarProps> = () => {
               )
           })
       }
+      <div className={styles.darkmodeButton}>
+      <Darkmodebutton />
+        {
+          useDarkmode
+        }
+      </div>
+
     </div>
   )
 }

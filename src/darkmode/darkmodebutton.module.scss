@@ -1,0 +1,23 @@
+@mixin container {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-radius: 0.75rem;
+    border-width: 2px;
+    border-color: #0bb5f4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.4cm;
+
+    &:hover {
+        background: #0bb5f4;
+    }
+}
+
+.darkmode{
+    @include container();
+}
+
+.lightmode{
+    @include container();
+}

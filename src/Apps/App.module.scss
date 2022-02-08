@@ -1,38 +1,21 @@
 body {
     margin: 0;
-    //background-image:url(https://wallup.net/wp-content/uploads/2016/07/20/30209-simple-simple_background.jpg);
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
     background-size: cover;
-    background: rgb(213, 213, 213);
 }
 
-.navbar {
-    display: flex;
-    flex-direction: column;
+.darkmode {
+    background: rgb(36, 36, 36);
+    min-height: 100vh;
+    height: 100%;
+    transition: 500ms ease-in-out;
 }
 
-.nimi {
-    font-size: 1.5cm;
-    margin-left: 5px;
-    margin-top: -125px;
-    font-family: Gill Sans;
-    color: white;
-}
-
-.info {
-    font-size: 0.6cm;
-    margin-left: 1700px;
-    margin-top: -115px;
-    font-family: Gill Sans;
-    color: white;
-}
-
-line {
-    margin-top: -115px;
-    font-size: 1cm;
-    font-family: Gill Sans;
-    color: white;
-    margin-left: 1700px;
+.lightmode {
+    background: rgb(255, 255, 255);
+    min-height: 100vh;
+    height: 100%;
+    transition: 500ms ease-in-out;
 }

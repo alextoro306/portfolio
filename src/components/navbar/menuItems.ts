@@ -6,19 +6,19 @@ interface IMenuItem {
 export const MenuItems: IMenuItem[] = [
     {
         index: 0,
-        linkTo: 'https://google.com',
+        linkTo: '/',
         title: 'Home',
     },
 
     {
         index: 1,
-        linkTo: 'https://yandex.com',
+        linkTo: '/projects',
         title: 'Projects',
     },
     
     {
         index: 2,
-        linkTo: 'https://duckduckgo.com',
+        linkTo: '/Cv',
         title: 'CV',
     },
 ]

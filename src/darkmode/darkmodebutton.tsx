@@ -1,0 +1,20 @@
+import React from 'react';
+import styles from './darkmodebutton.module.scss';
+import { useDarkmodeContext } from './darkmodeContextProvider';
+
+const Darkmodebutton: React.FC = () => {
+
+	const { useDarkmode, setUseDarkmode } = useDarkmodeContext();
+	return (
+	
+		<div className={useDarkmode ? styles.darkStyle : styles.ligthStyle}>
+		
+			<button className={useDarkmode ? styles.darkmode : styles.lightmode} onClick={() => setUseDarkmode(!useDarkmode)}>
+				 { useDarkmode ? "LIGHT MODE" : "DARK MODE"}
+			</button>
+			{/* ... some other things*/}
+		</div>
+	)
+}
+
+export default Darkmodebutton;
