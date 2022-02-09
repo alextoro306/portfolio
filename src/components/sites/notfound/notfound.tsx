@@ -12,9 +12,7 @@ const Notfound: React.FC<NotfoundProps> = () => {
       <h2>404</h2>
       <h4>Page Not Found</h4>
       <h3>
-        <Link to={"/"}>
-          Home Here
-        </Link>
+      😥
       </h3>
     </div>
   )

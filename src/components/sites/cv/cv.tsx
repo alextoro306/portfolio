@@ -20,12 +20,16 @@ const Cv: React.FC<CvProps> = () => {
        <div className={`${styles.class1resume_item} ${styles.class2resume_info}`}>
          <div className={styles.title}>
            <p className={styles.bold}>Alex Toro</p>
-           <p className={styles.regular}>Developer</p>
          </div>
          <ul>
            <li>
+             <div className={styles.regular}>
+                Developer
+             </div>
+           </li>
+           <li>
              <div className={styles.data}>
-               Espoo, Suomi
+               Espoo, Finland
              </div>
            </li>
            <li>
@@ -115,7 +119,7 @@ const Cv: React.FC<CvProps> = () => {
              </div>
              <div className={styles.data}>
                <p className="semi-bold">Twitter</p>
-               <p>@MrLexaaa</p>
+               @MrLexaaa
              </div>
            </li>
            <li>
@@ -124,7 +128,7 @@ const Cv: React.FC<CvProps> = () => {
              </div>
              <div className={styles.data}>
                <p className="semi-bold">Youtube</p>
-               <p>LexaFlexaa</p>
+               LexaFlexaa
              </div>
            </li>
            <li>
@@ -133,7 +137,7 @@ const Cv: React.FC<CvProps> = () => {
              </div>
              <div className={styles.data}>
                <p className="semi-bold">Instagram</p>
-               <p>@mrlexaaa</p>
+               @mrlexaaa
              </div>
            </li>
          </ul>
@@ -153,24 +157,17 @@ const Cv: React.FC<CvProps> = () => {
          </div>
         <ul>
             <li>
-                <div className={styles.date}>2013 - 2015</div> 
+                <div className={styles.date}>2018</div> 
                 <div className={styles.info}>
-                     <p className="semi-bold">Lorem ipsum dolor sit amet.</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                     <p className="semi-bold">Kindergarten</p> 
+                  <p>I worked at kindergarten when i was 14 years old.</p>
                 </div>
             </li>
             <li>
-              <div className={styles.date}>2015 - 2017</div>
+              <div className={styles.date}>2019</div>
               <div className={styles.info}>
-                     <p className="semi-bold">Lorem ipsum dolor sit amet.</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
-                </div>
-            </li>
-            <li>
-              <div className={styles.date}>2017 - Present</div>
-              <div className={styles.info}>
-                     <p className="semi-bold">Lorem ipsum dolor sit amet.</p> 
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, voluptatibus!</p>
+                     <p className="semi-bold">Food Restaurant</p> 
+                  <p>I worked at restaurant when i was 15 years old.</p>
                 </div>
             </li>
         </ul>

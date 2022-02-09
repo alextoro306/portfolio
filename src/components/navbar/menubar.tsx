@@ -22,8 +22,8 @@ const Menubar: React.FC<MenubarProps> = () => {
                         ? null
                         : <p className={styles.spacing}>|</p>
                       }
-                      {/* <a href={x.linkTo}>{x.title}</a> */}
-                      <Link to={x.linkTo}>{x.title}</Link>
+                      {}
+                      <Link className={useDarkmode ? styles.darklink:styles.lightlink} to={x.linkTo}>{x.title}</Link>
                       {
                         i % 2 === 0
                         ? null

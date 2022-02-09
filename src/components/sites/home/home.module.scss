@@ -3,6 +3,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 15px;
     margin-top: 20px;
+    transition: 500ms ease-in-out;
 }
 
 .dark {
@@ -15,26 +16,48 @@
 }
 
 .container h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 200px;
     margin-left: 250px;
     font-size: 0.8cm;
+    color: #0bb5f4;
 }
 
 .container h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 250px;
-    font-size: 1.5cm;
+    font-size: 2cm;
+    margin-top: 50px;
 }
 
 .container h4 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 250px;
-    font-size: 0.9cm;
+    font-size: 0.7cm;
+    color: rgb(136, 136, 136);
+    margin-top: -30px;
 }
 
 .container h5 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 250px;
     font-size: 1.2cm;
+    color: rgb(136, 136, 136);
+    margin-top: 40px;
+}
+
+.dark img,
+.light img {
+    margin-top: 70px;
+    max-width: 25%;
+    max-height: 25%;
+    display: inline-block;
+    padding: 0px;
+    margin-left: 110px;
+    height: 30vh;
+    &:hover {
+        transform: scale(1.2);
+        transition: .5s ease-in;
+    }
+    transition: all .3s ease-out;
 }

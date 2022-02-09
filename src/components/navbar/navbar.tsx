@@ -9,9 +9,7 @@ const Navbar: React.FC<NavbarProps> = () => {
   return (
     
     <div className={styles.container}>
-      <h1>
-        Alex Toro Portfolio
-      </h1>
+      
     </div>
   )
 }

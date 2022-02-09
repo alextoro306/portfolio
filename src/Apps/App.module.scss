@@ -7,15 +7,15 @@ body {
 }
 
 .darkmode {
-    background: rgb(36, 36, 36);
+    background: rgb(38, 37, 49);
     min-height: 100vh;
-    height: 100%;
     transition: 500ms ease-in-out;
+    margin-top: -20px
 }
 
 .lightmode {
-    background: rgb(255, 255, 255);
+    background: rgb(219, 219, 219);
     min-height: 100vh;
-    height: 100%;
     transition: 500ms ease-in-out;
+    margin-top: -20px
 }

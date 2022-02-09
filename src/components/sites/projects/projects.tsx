@@ -1,5 +1,5 @@
 import React from 'react'
-//import styles from './projects.module.scss';
+import styles from './projects.module.scss';
 
 type ProjectsProps = {
 
@@ -7,8 +7,9 @@ type ProjectsProps = {
 
 const Projects: React.FC<ProjectsProps> = () => {
   return (
-    <div>
-      🍕
+    <div className={styles.links}>
+    <p className={styles.link}>GitHub</p> 
+    <p className={styles.link}>Games</p>
     </div>
   )
 }

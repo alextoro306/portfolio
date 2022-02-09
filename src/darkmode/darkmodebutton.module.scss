@@ -7,14 +7,15 @@
     border-width: 2px;
     border-color: #0bb5f4;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.4cm;
+    font-size: 0.45cm;
+    margin-top: -10px;
 
     &:hover {
         background: #0bb5f4;
     }
 }
 
-.darkmode{
+.darkmode {
     @include container();
 }
 
