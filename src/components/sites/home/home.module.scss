@@ -48,7 +48,7 @@
 
 .dark img,
 .light img {
-    margin-top: 70px;
+    margin-top: 40px;
     max-width: 25%;
     max-height: 25%;
     display: inline-block;
@@ -60,25 +60,6 @@
         transform: scale(1.2);
         transition: .5s ease-in;
     }
+
     transition: all .3s ease-out;
-}
-
-.instagram {
-    font-size: 0.5cm;
-    color: black;
-    margin: 0 5px;
-    margin-left: 1420px;
-    
-}
-
-.twitter {
-    font-size: 0.5cm;
-    color: rgb(107, 138, 221);
-    margin: 0 5px;
-}
-
-.youtube {
-    font-size: 0.5cm;
-    color: red;
-    margin: 0 5px;
 }
