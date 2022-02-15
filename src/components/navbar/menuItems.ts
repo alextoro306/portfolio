@@ -21,16 +21,4 @@ export const MenuItems: IMenuItem[] = [
         linkTo: '/Cv',
         title: 'CV',
     },
-
-    // {
-    //     index: 3,
-    //     linkTo: '/https://github.com/alextoro306',
-    //     title: 'GitHub',
-    // },
-
-    // {
-    //     index: 4,
-    //     linkTo: '/',
-    //     title: 'Games',
-    // },
 ]

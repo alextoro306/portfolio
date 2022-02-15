@@ -107,41 +107,6 @@ const Cv: React.FC<CvProps> = () => {
            </li>
          </ul>
        </div>
-       <div className={`${styles.class1resume_item} ${styles.class2resume_social}`}>
-         <div className={styles.title}>
-           <p className={styles.bold}>Social Media</p>
-         </div>
-         <ul>
-         
-           <li>
-             <div className={styles.icon}>
-               <i className="fab fa-twitter-square"></i>
-             </div>
-             <div className={styles.data}>
-               <p className="semi-bold">Twitter</p>
-               @MrLexaaa
-             </div>
-           </li>
-           <li>
-             <div className={styles.icon}>
-               <i className="fab fa-youtube"></i>
-             </div>
-             <div className={styles.data}>
-               <p className="semi-bold">Youtube</p>
-               LexaFlexaa
-             </div>
-           </li>
-           <li>
-             <div className={styles.icon}>
-               <i className="fab fa-youtube"></i>
-             </div>
-             <div className={styles.data}>
-               <p className="semi-bold">Instagram</p>
-               @mrlexaaa
-             </div>
-           </li>
-         </ul>
-       </div>
      </div>
   </div>
   <div className={styles.resume_right}>
@@ -190,7 +155,6 @@ const Cv: React.FC<CvProps> = () => {
               <div className={styles.info}>
                      <p className="semi-bold">Junior High School</p> 
                   <p>I studied the whole junior high school time at Juvanpuiston koulu.</p>
-                  <div className={styles.info}></div>
                 </div>
             </li>
             <li>
@@ -198,7 +162,6 @@ const Cv: React.FC<CvProps> = () => {
               <div className={styles.info}>
                      <p className="semi-bold">Vocational School</p> 
                   <p>I study at Varia Myyrmäki.</p>
-                  <div className={styles.info}></div>
                 </div>
             </li>
         </ul>
@@ -208,12 +171,6 @@ const Cv: React.FC<CvProps> = () => {
            <p className={styles.bold}>Hobby</p>
            <p>I play video games and hang out with my friends.</p>
          </div>
-       <ul>
-         <li><i className="fas fa-book"></i></li>
-         <li><i className="fas fa-gamepad"></i></li>
-         <li><i className="fas fa-music"></i></li>
-         <li><i className="fab fa-pagelines"></i></li>
-      </ul>
     </div>
   </div>
 </div>
