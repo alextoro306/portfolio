@@ -2,21 +2,22 @@ $menu-item-margin: 10px;
 
 .menubar {
     height: 80px;
-    width: 30%;
+    width: 100vw;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     display: flex;
     flex-direction: row;
     position: relative;
     margin-top: 20px;
+    padding-left: 60px;
 }
 
 //menuviivat
 .spacing {
     color: #0bb5f4;
-    margin: 0 18px;
+    margin: 0 20px;
     font-weight: 900;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .menuItem {
@@ -25,18 +26,10 @@ $menu-item-margin: 10px;
     align-items: center;
 }
 
-.darkmodeButton {
-    position: absolute;
-    right: 0;
-    margin: 0 -1200px;
-    margin-top: 20px;
-}
-
 //menu
 .menubar .menuItem a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 10000;
     font-size: 0.8cm;
 }
 
@@ -52,21 +45,58 @@ $menu-item-margin: 10px;
     color: #0bb5f4;
 }
 
+.links {
+    position: absolute;
+    right: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.links .darkModeButton {
+    margin-left: 15px;
+}
+
 .instagram {
-    font-size: 0.5cm;
-    color: black;
-    margin: 0 5px;
-    
+    font-size: 1cm;
+    color: rgb(255, 255, 255);
+    margin: 0 6px;
+    margin-top: -6px;
+    background:
+    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 50%, #fec66d 100%);
+    border-radius: 11px;
+
+    &:hover{
+        transform: scale(1.2);
+        transition: .4s ease-in;
+    }
 }
 
 .twitter {
     font-size: 0.5cm;
     color: rgb(107, 138, 221);
-    margin: 0 5px;
+    margin: 0 6px;
+
+    &:hover{
+        transform: scale(1.2);
+        transition: .4s ease-in;
+    }
 }
 
 .youtube {
     font-size: 0.5cm;
     color: red;
-    margin: 0 5px;
+    margin: 0 6px;
+
+    &:hover{
+        transform: scale(1.2);
+        transition: .4s ease-in;
+    }
 }

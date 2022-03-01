@@ -8,9 +8,8 @@ const Darkmodebutton: React.FC = () => {
 	return (
 	
 		<div className={useDarkmode ? styles.darkStyle : styles.ligthStyle}>
-		
 			<button className={useDarkmode ? styles.darkmode : styles.lightmode} onClick={() => setUseDarkmode(!useDarkmode)}>
-				 { useDarkmode ? "LIGHT MODE" : "DARK MODE"}
+				 { useDarkmode ? "Light ☀️" : "Dark 🌙"}
 			</button>
 			{}
 		</div>

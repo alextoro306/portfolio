@@ -1,90 +1,57 @@
 .links {
+    height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
+@mixin linkCardAMA {
+    border: 3px groove #000;
+    border-radius: 22px;
+    height: 180px;
+    width: 360px;
     display: flex;
     flex-direction: column;
-
-    .gamesLink {
-        text-decoration: none;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1cm;
-        margin-left: 200px;
-        margin-top:  -160px;
-        width: 10px;
-        white-space: nowrap;
-        border-style: groove;
-        border-radius: 30px;
-        border-width: 4px;
-        border-color: #0bb5f4;       
-        box-sizing: content-box;
-        padding-right: 30px;
-        padding-top: 150px;
-        padding-left: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 90px;
+    box-sizing: content-box;
+    background: linear-gradient(to right, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
         
-        &:hover {
-            color: #0bb5f4;
-        }
-    }
-    
-    .gitHubLink {
-        text-decoration: none;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1cm;
-        margin-left: 760px;
-        margin-top:  300px;
-        width: 0px;
-        white-space: nowrap;
-        border-style: groove;
-        border-radius: 30px;
-        border-width: 4px;
-        border-color: #0bb5f4;        
-        box-sizing: content-box;
-        padding-right: 320px;
-        padding-top: 150px;
-        padding-left: 30px;
-        height: 30px;
-        
-        &:hover {
-            color: #0bb5f4;
-        }
+    //otsikko
+    span {
+        display: flex;
+        flex-direction: row;
+        font-weight: 900;
+        align-items: center;
+        font-size: 0.55cm;
+        margin-top: -20px;
     }
 
-    .portfolioLink {
-        text-decoration: none;
+    //linkki
+    a {
+        font-weight: 900;
+        font-size: 0.65cm;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1cm;
-        margin-left: 1300px;
-        margin-top:  -180px;
-        width: 10px;
-        white-space: nowrap;
-        border-style: groove;
-        border-radius: 30px;
-        border-width: 4px;
-        border-color: #0bb5f4;        
-        box-sizing: content-box;
-        padding-right: 30px;
-        padding-top: 130px;
-        padding-left: 30px;
-        
-        &:hover {
-            color: #0bb5f4;
-        }
+        color: black;
+        text-decoration: none;
+        margin-top: 10px;
+
+            &:hover {
+                color: #f3eded;
+                transform: scale(1.2);
+                transition: .5s ease-in;
+            }
     }
 }
 
-.container h2 {
-    font-size: 0.65cm;
-    margin-top: -130px;
-    margin-left: 835px;
-}
-
-.container h3 {
-    font-size: 0.65cm;
-    margin-left: 320px;
-    margin-top: -45px;
-}
-
-.container h4 {
-    font-size: 0.65cm;
-    margin-left: 1390px;
-    margin-top: -30px;
+    .linkCard1 {
+        @include linkCardAMA();
+    }
+    .linkCard2 {
+        @include linkCardAMA();
+    }
+    .linkCard3 {
+        @include linkCardAMA();
+    }
 }

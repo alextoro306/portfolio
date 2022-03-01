@@ -37,7 +37,7 @@ const Menubar: React.FC<MenubarProps> = () => {
       
       <div className={styles.links}>
         <a className={styles.instagram} href="https://www.instagram.com/mrlexaaa/" target="_blank">
-          <AiOutlineInstagram size={40} />
+        <AiOutlineInstagram size={34} />
         </a>
         <a className={styles.twitter} href="https://twitter.com/MrLexaaa" target="_blank">
         <AiOutlineTwitter size={40} />
@@ -45,15 +45,14 @@ const Menubar: React.FC<MenubarProps> = () => {
         <a className={styles.youtube} href="https://www.youtube.com/channel/UCv6IPKD1hza_8NQG5TyJLWw" target="_blank">
         <AiFillYoutube size={40} />
         </a>
+        <div className={styles.darkModeButton}>
+          <Darkmodebutton />
+        </div>
       </div>
 
-      <div className={styles.darkmodeButton}>
+      {/* <div className={styles.darkmodeButton}>
       <Darkmodebutton />
-        {
-          useDarkmode
-        }
-      </div>
-
+      </div> */}
     </div>
   )
 }

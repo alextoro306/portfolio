@@ -58,7 +58,7 @@ const Cv: React.FC<CvProps> = () => {
              <div className={styles.skill_progress}>
                <span style={{width: "50%"}}></span>
              </div>
-             <div className={styles.skill_per}>[50%]</div>
+             <div className={styles.skill_per}>[Advanced]</div>
            </li>
            <li>
              <div className={styles.skill_name}>
@@ -67,7 +67,7 @@ const Cv: React.FC<CvProps> = () => {
              <div className={styles.skill_progress}>
                <span style={{width: "50%"}}></span>
              </div>
-             <div className={styles.skill_per}>[50%]</div>
+             <div className={styles.skill_per}>[Advanced]</div>
            </li>
            <li>
              <div className={styles.skill_name}>
@@ -76,7 +76,7 @@ const Cv: React.FC<CvProps> = () => {
              <div className={styles.skill_progress}>
                <span style={{width: "50%"}}></span>
              </div>
-             <div className={styles.skill_per}>[50%]</div>
+             <div className={styles.skill_per}>[Advanced]</div>
            </li>
            <li>
              <div className={styles.skill_name}>
@@ -85,7 +85,7 @@ const Cv: React.FC<CvProps> = () => {
              <div className={styles.skill_progress}>
                <span style={{width: "50%"}}></span>
              </div>
-             <div className={styles.skill_per}>[50%]</div>
+             <div className={styles.skill_per}>[Advanced]</div>
            </li>
            <li>
              <div className={styles.skill_name}>
@@ -94,7 +94,7 @@ const Cv: React.FC<CvProps> = () => {
              <div className={styles.skill_progress}>
                <span style={{width: "50%"}}></span>
              </div>
-             <div className={styles.skill_per}>[50%]</div>
+             <div className={styles.skill_per}>[Advanced]</div>
            </li>
            <li>
              <div className={styles.skill_name}>
@@ -103,7 +103,7 @@ const Cv: React.FC<CvProps> = () => {
              <div className={styles.skill_progress}>
                <span style={{width: "50%"}}></span>
              </div>
-             <div className={styles.skill_per}>[50%]</div>
+             <div className={styles.skill_per}>[Advanced]</div>
            </li>
          </ul>
        </div>
