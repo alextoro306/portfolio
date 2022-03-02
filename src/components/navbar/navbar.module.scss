@@ -18,6 +18,10 @@ $menu-item-margin: 10px;
     margin: 0 20px;
     font-weight: 900;
     font-size: 30px;
+    @media only screen and (max-width: 740px) {
+    font-size: 0.3cm;
+    
+    }
 }
 
 .menuItem {
@@ -31,6 +35,11 @@ $menu-item-margin: 10px;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8cm;
+    @media only screen and (max-width: 740px) {
+    font-size: 0.5cm;
+    margin-left: -55px;
+    padding: 15px;
+    }
 }
 
 .darklink {
@@ -47,10 +56,13 @@ $menu-item-margin: 10px;
 
 .links {
     position: absolute;
-    right: 60px;
+    right: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    @media only screen and (max-width: 740px) {
+    right: 10px;
+    }
 }
 
 .links .darkModeButton {
@@ -98,5 +110,26 @@ $menu-item-margin: 10px;
     &:hover{
         transform: scale(1.2);
         transition: .4s ease-in;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .instagram {
+        width: 34px;
+        margin-top: 90px;
+        position: absolute;
+        right: 0px;
+    }
+
+    .twitter {
+        margin-top: 180px;
+        position: absolute;
+        right: -3px;
+    }
+
+    .youtube {
+        margin-top: 260px;
+        position: absolute;
+        right: -3px;
     }
 }

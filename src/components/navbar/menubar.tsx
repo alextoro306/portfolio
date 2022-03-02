@@ -49,10 +49,6 @@ const Menubar: React.FC<MenubarProps> = () => {
           <Darkmodebutton />
         </div>
       </div>
-
-      {/* <div className={styles.darkmodeButton}>
-      <Darkmodebutton />
-      </div> */}
     </div>
   )
 }
