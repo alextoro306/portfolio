@@ -4,6 +4,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
+    @media only screen and (max-width: 820px) {
+    flex-direction: column;
+    padding-top: 140px;
+    
+    }
 
 @mixin linkCardAMA {
     border: 3px groove #000;
@@ -14,10 +20,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 90px;
+    margin: 0 50px;
     box-sizing: content-box;
     background: linear-gradient(to right, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
-        
+    
+    @media only screen and (max-width: 980px) {
+    flex-direction: column;
+    padding: 10px;
+    margin: 12px;
+    width: 300px;
+    }
+
     //otsikko
     span {
         display: flex;
@@ -47,6 +60,8 @@
 
     .linkCard1 {
         @include linkCardAMA();
+
+       
     }
     .linkCard2 {
         @include linkCardAMA();

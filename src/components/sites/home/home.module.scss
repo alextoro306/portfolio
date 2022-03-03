@@ -21,6 +21,7 @@
     margin-left: 250px;
     font-size: 0.8cm;
     color: #0bb5f4;
+
     @media only screen and (max-width: 900px) {
     margin-top: 50px;
     font-size: 0.4cm;
@@ -34,6 +35,7 @@
     margin-left: 250px;
     font-size: 2cm;
     margin-top: 50px;
+
     @media only screen and (max-width: 900px) {
     height: 30px;
     font-size: 1cm;
@@ -47,6 +49,7 @@
     font-size: 0.7cm;
     color: rgb(136, 136, 136);
     margin-top: -30px;
+
     @media only screen and (max-width: 900px) {
     font-size: 0.5cm;
     margin-left: 50px;
@@ -60,6 +63,7 @@
     font-size: 1.2cm;
     color: rgb(136, 136, 136);
     margin-top: 40px;
+
     @media only screen and (max-width: 900px) {
     font-size: 0.5cm;
     margin-left: 50px;
@@ -83,4 +87,9 @@
     }
 
     transition: all .3s ease-out;
+
+    @media only screen and (max-width: 900px) {
+    max-width: 300px;
+    margin-left: -20px;
+    }
 }

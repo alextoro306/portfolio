@@ -18,9 +18,11 @@ $menu-item-margin: 10px;
     margin: 0 20px;
     font-weight: 900;
     font-size: 30px;
+
     @media only screen and (max-width: 740px) {
-    font-size: 0.3cm;
-    
+    font-size: 0.5cm;
+    width: 35px;
+    margin-left: -5px;
     }
 }
 
@@ -35,6 +37,7 @@ $menu-item-margin: 10px;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.8cm;
+
     @media only screen and (max-width: 740px) {
     font-size: 0.5cm;
     margin-left: -55px;
@@ -60,6 +63,7 @@ $menu-item-margin: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
+
     @media only screen and (max-width: 740px) {
     right: 10px;
     }
@@ -114,6 +118,7 @@ $menu-item-margin: 10px;
 }
 
 @media only screen and (max-width: 740px) {
+    
     .instagram {
         width: 34px;
         margin-top: 90px;
