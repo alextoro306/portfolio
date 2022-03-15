@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './notfound.module.scss';
-import { Link } from 'react-router-dom';
 
 type NotfoundProps = {
 
