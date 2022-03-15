@@ -12,7 +12,6 @@ import { useDarkmodeContext } from "../darkmode/darkmodeContextProvider"
 import Home from '../components/sites/home/home';
 import Projects from '../components/sites/projects/projects';
 import Cv from '../components/sites/cv/cv';
-import Example from '../components/example/example';
 // import TopBar from '../components/topBar/topBar';
 
 const App: React.FC = () => {
@@ -27,7 +26,6 @@ const App: React.FC = () => {
             <Route exact path={"/"} component={Home}/>
             <Route exact path={"/projects"} component={Projects}/>
             <Route exact path={"/cv"} component={Cv}/>
-            <Route exact path={"/ex"} component={Example}/>
             <Route component={NotFound} />
           </Switch>
         </Router>
