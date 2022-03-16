@@ -88,11 +88,19 @@
 
     transition: all .3s ease-out;
 
-    @media only screen and (max-width: 920px) {
+    @media only screen and (max-width: 450px) {
     margin: auto;
-    max-width: 260px;
+    max-width: 246px;
     padding-top: 35px;
     display: flex;
     flex-direction: column;
     }
+
+    // @media only screen and (max-width: 950px) {
+    //     margin: auto;
+    //     max-width: 346px;
+    //     padding-top: 35px;
+    //     display: flex;
+    //     flex-direction: column;
+    //     }
 }

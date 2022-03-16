@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    margin: 0px;
+    height: 100%;
     background-position: center center;
     background-repeat: no-repeat; 
     background-attachment: fixed;
@@ -8,14 +9,14 @@ body {
 
 .darkmode {
     background: rgb(36, 38, 45);
-    min-height: 100vh;
+    min-height: 140vh;
     transition: 500ms ease-in-out;
     margin-top: -20px
 }
 
 .lightmode {
     background: rgb(219, 219, 219);
-    min-height: 100vh;
+    min-height: 140vh;
     transition: 500ms ease-in-out;
     margin-top: -20px
 }
