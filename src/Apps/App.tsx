@@ -12,7 +12,6 @@ import { useDarkmodeContext } from "../darkmode/darkmodeContextProvider"
 import Home from '../components/sites/home/home';
 import Projects from '../components/sites/projects/projects';
 import Cv from '../components/sites/cv/cv';
-// import TopBar from '../components/topBar/topBar';
 
 const App: React.FC = () => {
   const { useDarkmode } = useDarkmodeContext();
@@ -21,7 +20,7 @@ const App: React.FC = () => {
         <Router basename='/portfolio'>
           <Navbar/>
           <Menubar/>
-          {/* <TopBar/> */}
+          {}
           <Switch >
             <Route exact path={"/"} component={Home}/>
             <Route exact path={"/projects"} component={Projects}/>

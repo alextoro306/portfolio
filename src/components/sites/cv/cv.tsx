@@ -11,7 +11,18 @@ const Cv: React.FC<CvProps> = () => {
   return (
     <div className={useDarkmode ? styles.dark : styles.light}>
 
-<div className={styles.resume}>
+<div className={styles.container}>
+  <h1>CV</h1>
+  <h2>Hi, My name is Alex Toro and im studying information and communication technologies. Im currently studying at Varia Myyrmäki Vantaa. The things i've learnt are the following: Basics of Java, JavaScript, TypeScript, React, CSS and SCSSI've studied the basics of Unity, and C# scripting for Unity. I have been studying for a little over a year and a half so far.</h2>
+  <h3></h3>
+  <h4>Contact</h4>
+  <h5>alextoro306@gmail.com</h5>
+  <h6>alextoro306@gmail.com</h6>
+  <a>+358442412749</a>
+  <b>Espoo, Finland</b>
+</div>
+
+{/* <div className={styles.resume}>
    <div className={styles.resume_left}>
      <div className={styles.resume_profile}>
        <img src="https://images.news18.com/ibnlive/uploads/2020/05/1590926604_anonymous-minneapolis-pd-video-message-facebook-may-29.jpg?im=FitAndFill,width=1200,height=675"alt="profile_pic"/>
@@ -173,7 +184,7 @@ const Cv: React.FC<CvProps> = () => {
          </div>
     </div>
   </div>
-</div>
+</div> */}
     </div>
   )
 }

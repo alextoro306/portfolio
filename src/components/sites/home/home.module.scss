@@ -88,8 +88,11 @@
 
     transition: all .3s ease-out;
 
-    @media only screen and (max-width: 900px) {
-    max-width: 300px;
-    margin-left: -20px;
+    @media only screen and (max-width: 920px) {
+    margin: auto;
+    max-width: 260px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
     }
 }

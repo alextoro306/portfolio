@@ -28,7 +28,7 @@ body {
   width: 800px;
   height: auto;
   display: flex;
-  margin: 0px auto;
+  margin: 25px auto;
 }
 
 .resume .resume_left {
@@ -233,4 +233,67 @@ body {
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+
+.container h1 {
+  font-size: 1cm;
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 120px;
+  margin-left: 800px;
+}
+
+.container h2 {
+  font-size: 0.55cm;
+  font-weight: 400;
+  font-family: sans-serif;
+  width: 1220px;
+  margin-left: 250px;
+  text-align: center;
+}
+
+.container h3 {
+  margin-left: 120px;
+  width: 1500px;
+  height: -50px;
+  border-bottom: 5px solid #0bb5f4;
+  position: absolute;
+}
+
+.container h4 {
+  font-size: 1cm;
+  margin-top: 70px;
+  margin-left: 750px;
+  color: #57bee4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container h5 {
+  color: rgb(95, 95, 95);
+  font-size: 0.6cm;
+  font-weight: 400;
+  margin-top: -25px;
+  margin-left: 780px;
+}
+
+.container h6 {
+  color: rgb(95, 95, 95);
+  font-size: 0.6cm;
+  font-weight: 400;
+  margin-left: 700px;
+}
+
+.container a {
+  color: rgb(95, 95, 95);
+  font-size: 0.6cm;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 700px;
+}
+
+.container b {
+  color: rgb(95, 95, 95);
+  font-size: 0.6cm;
+  font-weight: 400;
+  
 }
