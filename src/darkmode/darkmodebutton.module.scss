@@ -10,6 +10,12 @@
     font-size: 0.45cm;
     margin-top: -9px;
     font-weight: 900;
+    margin-right: 50px;
+
+    @media only screen and (max-width: 740px) {
+    margin-right: 0px;
+    }
+    
 
     &:hover {
         background: #0bb5f4;

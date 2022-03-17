@@ -11,7 +11,7 @@ import Navbar from '../components/navbar/navbar';
 import { useDarkmodeContext } from "../darkmode/darkmodeContextProvider"
 import Home from '../components/sites/home/home';
 import Projects from '../components/sites/projects/projects';
-import Cv from '../components/sites/cv/cv';
+import Cv from '../components/sites/cv2/cv';
 
 const App: React.FC = () => {
   const { useDarkmode } = useDarkmodeContext();
@@ -20,7 +20,6 @@ const App: React.FC = () => {
         <Router basename='/portfolio'>
           <Navbar/>
           <Menubar/>
-          {}
           <Switch >
             <Route exact path={"/"} component={Home}/>
             <Route exact path={"/projects"} component={Projects}/>

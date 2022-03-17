@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.tag1 {
+    font-size: 2.5vw;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.tag2 {
+    font-size: 2vw;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.tag3 {
+    font-size: 2vw;
+    font-weight: 900;
+    color: #57bee4;
+    font-family: sans-serif;
+}
+
+.tag4 {
+    font-size: 2vw;
+    font-weight: 900;
+    color: #57bee4;
+    font-family: sans-serif;
+}
+
+.tag5 {
+    font-size: 2vw;
+    font-weight: 900;
+    color: #57bee4;
+    font-family: sans-serif;
+}
+
+.tag6 {
+    font-size: 2vw;
+    font-weight: 900;
+    color: #57bee4;
+    font-family: sans-serif;
+}
+
+.container .border {
+    border-bottom: 5px solid #0bb5f4;
+    height: 5px;
+    width: 80vw;
+}
+
+.container .education {
+    margin-bottom: 5px;
+}
+
+.container .education .eduItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .education .eduItem .perioid {
+    text-align: center;
+    color: rgba($color: #000000, $alpha: .5);
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.container .education .eduItem .schoolName {
+    margin: 0;
+}
+
+.container .education .eduItem .eduLevel {
+    font-size: 2vw;
+    
+}
+
+.container .education .eduItem .description {
+    max-width: 700px;
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+.container .education .eduItem .schoolStart .schoolEnd {
+    font-size: 5vw;
+}

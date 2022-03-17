@@ -37,13 +37,13 @@ const Menubar: React.FC<MenubarProps> = () => {
       
       <div className={styles.links}>
         <a className={styles.instagram} href="https://www.instagram.com/mrlexaaa/" target="_blank" rel="noreferrer">
-        <AiOutlineInstagram size={34} />
+          <AiOutlineInstagram size={34} />
         </a>
         <a className={styles.twitter} href="https://twitter.com/MrLexaaa" target="_blank" rel="noreferrer">
-        <AiOutlineTwitter size={40} />
+          <AiOutlineTwitter size={40} />
         </a>
         <a className={styles.youtube} href="https://www.youtube.com/channel/UCv6IPKD1hza_8NQG5TyJLWw" target="_blank" rel="noreferrer">
-        <AiFillYoutube size={40} />
+          <AiFillYoutube size={40} />
         </a>
         <div className={styles.darkModeButton}>
           <Darkmodebutton />

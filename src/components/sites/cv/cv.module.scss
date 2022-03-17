@@ -12,6 +12,21 @@ body {
   line-height: 22px;
 }
 
+@mixin container {
+  padding: 15px 0;
+  height: 100%;
+  transition: 500ms ease-in-out;
+}
+
+.dark {
+  @include container();
+  color: rgb(204, 204, 204);
+}
+
+.light {
+  @include container();
+}
+
 .tag1 {
   font-size: 1cm;
   color: #000000;
@@ -22,12 +37,14 @@ body {
 }
 
 .tag2 {
-  font-size: 0.6cm;
+  font-size: 1vw;
   font-weight: 500;
   font-family: sans-serif;
   width: 1220px;
   margin-left: 250px;
   text-align: center;
+
+  
 }
 
 .tag3 {
@@ -83,7 +100,7 @@ body {
 }
 
 .tag9 {
-  color: #000000;
+  color: rgb(100, 100, 100);
   font-size: 0.65cm;
   font-weight: 900;
   margin-top: -48px;
@@ -110,7 +127,7 @@ body {
 }
 
 .tag12 {
-  color: #000000;
+  color: rgb(100, 100, 100);
   font-size: 0.65cm;
   font-weight: 900;
   margin-top: -48px;
@@ -128,7 +145,7 @@ body {
 }
 
 .tag14 {
-  color: #000000;
+  color: rgb(100, 100, 100);
   font-size: 0.65cm;
   font-weight: 900;
   margin-top: 0px;
@@ -172,7 +189,7 @@ body {
 }
 
 .tag19 {
-  color: #000000;
+  color: rgb(100, 100, 100);
   font-size: 0.65cm;
   font-weight: 900;
   margin-top: 0px;
@@ -199,7 +216,7 @@ body {
 }
 
 .tag22 {
-  color: #000000;
+  color: rgb(100, 100, 100);
   font-size: 0.65cm;
   font-weight: 900;
   margin-top: 0px;

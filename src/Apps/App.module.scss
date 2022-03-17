@@ -9,14 +9,15 @@ body {
 
 .darkmode {
     background: rgb(36, 38, 45);
-    min-height: 140vh;
+    min-height: 100vh;
     transition: 500ms ease-in-out;
-    margin-top: -20px
+    height: 100%;
 }
 
 .lightmode {
     background: rgb(219, 219, 219);
-    min-height: 140vh;
+    height: 100%;
+    min-height: 100vh;
     transition: 500ms ease-in-out;
-    margin-top: -20px
+    
 }
