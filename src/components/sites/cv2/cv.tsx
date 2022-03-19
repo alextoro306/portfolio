@@ -9,7 +9,6 @@ type CvProps = {
 const Cv: React.FC<CvProps> = () => {
   return (
     <div className={styles.container}>
-        
 
         <div className={styles.education}>
 
@@ -42,49 +41,60 @@ const Cv: React.FC<CvProps> = () => {
         
         <div className={styles.tag4}>
           <p>Work Experience</p>
-        </div>
+        </div>  
+        
+            <div className={styles.work}>
 
-        {
-                workData.map(workitem => (
-                    <div className={styles.eduItem} key={workitem.key}>
-                        <h3 className={styles.eduLevel}>{workitem.schoolLevel}<p className={styles.perioid}>{workitem.schoolStart}</p></h3>
-                        <p className={styles.description}>{workitem.description}</p>
-                    </div>
-                ))
-            }
+                {
+                    workData.map(workitem => (
+                        <div className={styles.eduItem} key={workitem.key}>
+                            <h3 className={styles.eduLevel}>{workitem.schoolLevel}<p className={styles.perioid}>{workitem.schoolStart}</p></h3>
+                            <p className={styles.description}>{workitem.description}</p>
+                        </div>
+                    ))
+                }
+            </div>
       
       <div className={styles.border}/>
 
       <div className={styles.tag5}>
-          <p>My Hobbies</p>
+        <p>My Hobbies</p>
         </div>
 
-      {
-                hobbiesData.map(hobbiesitem => (
-                    <div className={styles.eduItem} key={hobbiesitem.key}>
-                        <p className={styles.description}>{hobbiesitem.description}</p>
-                    </div>
-                ))
-            }
+      <div className={styles.hobbies}>
+
+                {
+                    hobbiesData.map(hobbiesitem => (
+                        <div className={styles.hobbiesItem} key={hobbiesitem.key}>
+                            <p className={styles.description}>{hobbiesitem.description}</p>
+                        </div>
+                    ))
+                }
+
+        </div>
 
     <div className={styles.border}/>
-
+    
     <div className={styles.tag6}>
-          <p>Contact</p>
-        </div>
+        <p>Contact</p>
+    </div>
 
-    {
+    <div className={styles.contact}>
+
+            {
                 contactData.map(contactitem => (
-                    <div className={styles.eduItem} key={contactitem.key}>
+                    <div className={styles.contactItem} key={contactitem.key}>
                         <p className={styles.description}>{contactitem.description}</p>
                     </div>
                 ))
             }
 
+    </div>
 
-<div className={styles.border}/>
+        <div className={styles.border}/>
 
     </div>
+
   )
 }
 

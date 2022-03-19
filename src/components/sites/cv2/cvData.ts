@@ -17,7 +17,7 @@ export const eduData = [
         schoolLevel: 'Vocational College',
         description: 'I study at Varia Myyrmäki.',
         schoolStart: '2020',
-        key: 1
+        key: 2
     }
 ]
 

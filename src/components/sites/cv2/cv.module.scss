@@ -3,87 +3,114 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
+    font-family: sans-serif;
 }
 
 .tag1 {
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-weight: 900;
-    font-family: sans-serif;
     text-align: center;
+    color: rgb(0, 0, 0);
 }
 
 .tag2 {
-    font-size: 2vw;
+    font-size: 1.4vw;
     text-align: center;
-    font-family: sans-serif;
+    color: rgb(100, 100, 102);
+    max-width: 1250px;
 }
 
 .tag3 {
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 900;
     color: #57bee4;
-    font-family: sans-serif;
+    text-align: center;
+    margin-top: -10px;
 }
 
 .tag4 {
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 900;
     color: #57bee4;
-    font-family: sans-serif;
+    margin-top: -10px;
 }
 
 .tag5 {
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 900;
     color: #57bee4;
-    font-family: sans-serif;
+    margin-top: -10px;
 }
 
 .tag6 {
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-weight: 900;
     color: #57bee4;
-    font-family: sans-serif;
+    margin-top: -10px;
 }
 
 .container .border {
     border-bottom: 5px solid #0bb5f4;
-    height: 5px;
-    width: 80vw;
+    width: 70vw;
+    margin: auto;
 }
 
 .container .education {
-    margin-bottom: 5px;
+    margin-bottom: 1px;
 }
 
 .container .education .eduItem {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .container .education .eduItem .perioid {
     text-align: center;
-    color: rgba($color: #000000, $alpha: .5);
+    color: rgb(138, 70, 70);
     margin-bottom: 0;
     font-weight: 700;
+    font-size: 1.3vw;
+    
 }
 
-.container .education .eduItem .schoolName {
-    margin: 0;
-}
+// .container .education .eduItem .schoolName {
+//     margin: 0;
+// }
 
 .container .education .eduItem .eduLevel {
-    font-size: 2vw;
+    font-size: 1.5vw;
     
 }
 
 .container .education .eduItem .description {
-    max-width: 700px;
-    font-size: 1.7vw;
-    text-align: center;
+    max-width: 850px;
+    font-size: 1.4vw;
+    color: rgb(100, 100, 102);
 }
 
 .container .education .eduItem .schoolStart .schoolEnd {
     font-size: 5vw;
+}
+
+.container .work .schoolStart {
+   color: green;
+}
+
+.container .work .description {
+    max-width: 700px;
+    font-size: 1.5vw;
+}
+
+.container .hobbies .description {
+    max-width: 700px;
+    font-size: 1.5vw;
+    color: rgb(100, 100, 102);
+}
+
+.container .contact .description {
+    max-width: 900px;
+    font-size: 1.5vw;
+    color: rgb(100, 100, 102);
 }
