@@ -48,7 +48,7 @@ const Cv: React.FC<CvProps> = () => {
                 {
                     workData.map(workitem => (
                         <div className={styles.eduItem} key={workitem.key}>
-                            <h3 className={styles.eduLevel}>{workitem.schoolLevel}<p className={styles.perioid}>{workitem.schoolStart}</p></h3>
+                            <h3 className={styles.workPlace}>{workitem.workPlace}<p className={styles.perioid}>{workitem.workStart}</p></h3>
                             <p className={styles.description}>{workitem.description}</p>
                         </div>
                     ))

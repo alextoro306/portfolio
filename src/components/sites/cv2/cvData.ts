@@ -23,15 +23,15 @@ export const eduData = [
 
 export const workData = [
     {
-        schoolLevel: 'Kindergarten',
+        workPlace: 'Kindergarten',
         description: 'I worked at kindergarten when i was 14 years old.',
-        schoolStart: '2018',
+        workStart: '2018',
         key: 0
     },
     {
-        schoolLevel: 'Food restaurant',
+        workPlace: 'Food restaurant',
         description: 'I worked at restaurant when i was 15 years old.',
-        schoolStart: '2019',
+        workStart: '2019',
         key: 1
     },
 ]
