@@ -10,9 +10,7 @@ const Notfound: React.FC<NotfoundProps> = () => {
     <div className={styles.container}>
       <h2>404</h2>
       <h4>Page Not Found</h4>
-      <h3>
-      😥
-      </h3>
+      <h3>😥</h3>
     </div>
   )
 }

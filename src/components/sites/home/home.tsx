@@ -19,11 +19,13 @@ const Home: React.FC<HomeProps> = () => {
           <h4>Developer</h4>
           <h5>Welcome To My Portfolio!</h5>
         </div>
+
         <div className={styles.img}>
           <img src={pic1} alt='pic1' />
           <img src={pic2} alt='pic2' />
           <img src={pic3} alt='pic3' />
         </div>
+        
       </div>
   )
 }

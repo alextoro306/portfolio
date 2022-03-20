@@ -9,9 +9,8 @@ const Darkmodebutton: React.FC = () => {
 	
 		<div className={useDarkmode ? styles.darkStyle : styles.ligthStyle}>
 			<button className={useDarkmode ? styles.darkmode : styles.lightmode} onClick={() => setUseDarkmode(!useDarkmode)}>
-				 { useDarkmode ? "Light ☀️" : "Dark 🌙"}
+				 {useDarkmode ? "Light ☀️" : "Dark 🌙"}
 			</button>
-			{}
 		</div>
 	)
 }

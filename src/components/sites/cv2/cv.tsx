@@ -10,21 +10,21 @@ const Cv: React.FC<CvProps> = () => {
   return (
     <div className={styles.container}>
 
-        <div className={styles.education}>
-
         <div className={styles.tag1}>
-          <p>CV</p>
+            <p>CV</p>
         </div>
 
         <div className={styles.tag2}>
-          <p>Hi, My name is Alex Toro and im studying information and communication technologies. Im currently studying at Varia Myyrmäki Vantaa. The things i've learnt are the following: Basics of Java, JavaScript, TypeScript, React, CSS and SCSSI've studied the basics of Unity, and C# scripting for Unity. I have been studying for a little over a year and a half so far.</p>
+            <p>Hi, My name is Alex Toro and im studying information and communication technologies. Im currently studying at Varia Myyrmäki Vantaa. The things i've learnt are the following: Basics of Java, JavaScript, TypeScript, React, CSS and SCSSI've studied the basics of Unity, and C# scripting for Unity. I have been studying for a little over a year and a half so far.</p>
         </div>
 
-        <div className={styles.border}/>
+        <div className={styles.education}>
 
-        <div className={styles.tag3}>
-          <p>Education</p>
-        </div>
+            <div className={styles.border}/>
+
+            <div className={styles.tag3}>
+                <p>Education</p>
+            </div>
 
             {
                 eduData.map(eduitem => (
@@ -53,15 +53,16 @@ const Cv: React.FC<CvProps> = () => {
                         </div>
                     ))
                 }
+
             </div>
       
-      <div className={styles.border}/>
+        <div className={styles.border}/>
 
-      <div className={styles.tag5}>
-        <p>My Hobbies</p>
+        <div className={styles.tag5}>
+            <p>My Hobbies</p>
         </div>
 
-      <div className={styles.hobbies}>
+        <div className={styles.hobbies}>
 
                 {
                     hobbiesData.map(hobbiesitem => (
@@ -73,13 +74,13 @@ const Cv: React.FC<CvProps> = () => {
 
         </div>
 
-    <div className={styles.border}/>
-    
-    <div className={styles.tag6}>
-        <p>Contact</p>
-    </div>
+        <div className={styles.border}/>
+        
+        <div className={styles.tag6}>
+            <p>Contact</p>
+        </div>
 
-    <div className={styles.contact}>
+        <div className={styles.contact}>
 
             {
                 contactData.map(contactitem => (
@@ -89,7 +90,7 @@ const Cv: React.FC<CvProps> = () => {
                 ))
             }
 
-    </div>
+        </div>
 
         <div className={styles.border}/>
 
