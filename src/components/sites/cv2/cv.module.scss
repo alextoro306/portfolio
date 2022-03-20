@@ -55,15 +55,10 @@
     margin: auto;
 }
 
-.container .education {
-    margin-bottom: 1px;
-}
-
 .container .education .eduItem {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .container .education .eduItem .perioid {
@@ -76,7 +71,6 @@
 
 .container .education .eduItem .eduLevel {
     font-size: 1.5vw;
-    // color: orange;
 }
 
 .container .education .eduItem .description {
@@ -86,8 +80,7 @@
     margin-top: -5px;
 }
 
-//otsikko
-.container .work .eduItem {
+.container .work .workItem {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,7 +94,7 @@
     margin-top: -10px;
 }
 
-.container .work .eduItem .perioid {
+.container .work .workItem .perioid {
     text-align: center;
     color: rgb(138, 70, 70);
     margin-bottom: 0;
